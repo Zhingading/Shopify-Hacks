@@ -23,9 +23,7 @@
     width: 40%;
 
 }
-.cheese{
-    background-color: orange;
-}
+
 .border {
     padding:10px;
     border:10px solid #021a40;
