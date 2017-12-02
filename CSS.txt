@@ -1,0 +1,54 @@
+.zoom{
+    zoom: 0.5;
+}
+.zoom3{
+    zoom: 1.5;
+}
+.bg1{
+    background-color: #f8d8b3;
+}.bg2{
+    background-color: #FD974F;
+}.bg3{
+    background-color: #EB5E30   ;
+}   
+
+.align{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.centralimage{
+    display: block;
+    margin: auto;
+    width: 40%;
+
+}
+.cheese{
+    background-color: orange;
+}
+.border {
+    padding:10px;
+    border:10px solid #021a40;
+ }
+ .padding{
+     padding: 50px;
+ }
+ .submit{
+     background-color: black;
+ }
+
+.btn:active { 
+     background-color: #FFF;
+
+ }
+
+.btn :hover {
+     background-color: rgb(255, 27, 27); 
+ }
+ 
+
+.submitbtn {
+    text-align: center; 
+    font-size: 14px;
+}
+
