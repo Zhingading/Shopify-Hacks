@@ -18,11 +18,37 @@
 <input type="button" class = "button0" value="Arms" onclick="arms()"></input>
 <input type="button" class = "button1" value="Core" onclick="core()"></input>
 <input type="button" class = "button2" value="Legs" onclick="legs()"></input>
+<button id= "timestart"class = "button3"onclick="startCountdown()">Start Time</button>
 <!-- The hrefs need to be changed to make it randomized EG WASIF -->
 <!-- <input type="button" value="CORE" onclick= "myFunction"='core1.html' />
 <input type="button" value="LEGS" onclick= "myFunction"='leg1.html' />-->
 
 </form>
 <script src="script.js" type="text/javascript"> </script>
+<script>
+    
+    var timeRemaing = 60*5;
+    
+    function startCountdown() {
+    
+      var interval = setInterval(function() {
+        timeRemaing--;
+        updateTime();
+        if (timeRemaing == 0) {
+          clearInterval(interval);
+        }
+      }, 1000);
+    }
+    
+    function updateTime() {
+      var minutes = Math.floor(timeRemaing/60);
+      var seconds = timeRemaing % 60;
+    
+      
+      var time = minutes.toString() + ":" + seconds.toString();
+      document.getElementById('time-remaining').innerHTML = time;
+    }
+    
+</script>
 </body>
 </html>
