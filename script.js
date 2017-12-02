@@ -6,7 +6,7 @@
       else 
       window.location.href = "arm2.html";
 
-  }
+  } 
 
   function legs() {
       console.log('Legs');

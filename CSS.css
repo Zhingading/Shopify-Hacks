@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica;
+    font-family: Arial;
 	margin: 0; 
 	padding: 0;
 	text-align: center;
@@ -46,3 +46,33 @@ body {
     font-size: 14px;
 }
 
+.button0 {
+    background-color: rgb(190, 202, 121); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button1 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
