@@ -1,16 +1,10 @@
-.zoom{
-    zoom: 0.5;
+body {
+	font-family: Helvetica;
+	margin: 0; 
+	padding: 0;
+	text-align: center;
+	color: #000000;
 }
-.zoom3{
-    zoom: 1.5;
-}
-.bg1{
-    background-color: #3fc5d6;
-}.bg2{
-    background-color: rgb(29, 162, 196);
-}.bg3{
-    background-color: rgb(57, 60, 230)   ;
-}   
 
 .align{
     text-align: center;
