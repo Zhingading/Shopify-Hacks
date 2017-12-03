@@ -26,3 +26,27 @@
       else 
       window.location.href = "core2.html";
   }
+
+  var timeRemaing = 60;
+  
+  function startCountdown() {
+
+    console.log("started");
+    var interval = setInterval(function() {
+      timeRemaing--;
+      updateTime();
+      if (timeRemaing == 0) {
+        clearInterval(interval);
+      }
+    }, 1000);
+  }
+  
+  function updateTime() {
+    var minutes = Math.floor(timeRemaing/60);
+    var seconds = timeRemaing % 60;
+  
+  
+    var time = minutes.toString() + ":" + (seconds.toString().length == 1 ? '0' : '') + seconds.toString();
+  
+    document.getElementById('time-remaining').innerHTML = time;
+  }

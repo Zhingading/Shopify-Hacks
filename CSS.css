@@ -47,7 +47,7 @@ body {
 }
 
 .button0 {
-    background-color: rgb(190, 202, 121); /* Green */
+    background-color: #ffe6a1; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -57,7 +57,7 @@ body {
     font-size: 16px;
 }
 .button1 {
-    background-color: #4CAF50; /* Green */
+    background-color: #61d9ff; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -67,7 +67,7 @@ body {
     font-size: 16px;
 }
 .button2 {
-    background-color: #4CAF50; /* Green */
+    background-color: #c891ff; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -77,7 +77,7 @@ body {
     font-size: 16px;
 }
 .button3 {
-    background-color: rgb(255, 166, 1); /* Green */
+    background-color: rgb(194, 194, 194); /* Green */
     border: none;
     color: rgb(255, 255, 255);
     padding: 15px 32px;
